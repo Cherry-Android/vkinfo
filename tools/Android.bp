@@ -15,14 +15,12 @@
 cc_binary {
     name: "vkinfo",
 
-    clang: true,
     cflags: [
         "-fvisibility=hidden",
         "-fstrict-aliasing",
 
         "-DLOG_TAG=\"vkinfo\"",
 
-        "-Weverything",
         "-Werror",
         "-Wno-padded",
         "-Wno-undef",
